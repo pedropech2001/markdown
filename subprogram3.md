@@ -55,10 +55,47 @@ The process in which a function calls itself directly or indirectly is called re
 
 Recursion are mainly of two types depending on whether a function calls itself from within itself or more than one function call one another mutually. The first one is called direct recursion and another one is called indirect recursion.
 
-      int fact(int n)
+```
+int fact(int n)
       {
           if (n < = 1) // base case
               return 1;
           else    
               return n*fact(n-1);    
       }
+
+```
+
+
+### Head Recursion
+
+If a recursive function calling itself and that recursive call is the first statement in the function then it’s known as Head Recursion.There’s no statement, no operation before the call. The function doesn’t have to process or perform any operation at the time of calling and all operations are done at returning time.
+```
+// C program showing Head Recursion 
+  
+#include <stdio.h> 
+  
+// Recursive function 
+void fun(int n) 
+{ 
+    if (n > 0) { 
+  
+        // First statement in the function 
+        fun(n - 1); 
+  
+        printf("%d ", n); 
+    } 
+} 
+  
+// Driver code 
+int main() 
+{ 
+    int x = 3; 
+    fun(x); 
+    return 0; 
+} 
+
+```
+  
+
+    
