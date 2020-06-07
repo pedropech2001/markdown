@@ -14,3 +14,14 @@ A Subprogram is a program inside any larger program that can be reused any numbe
 
 (5) The Main advantage of Subprogram is that it avoids repetition of Code and allows us to reuse the same code again and again.
 
+### What is Recursion?
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. Using recursive algorithm, certain problems can be solved quite easily. Examples of such problems are Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc.
+
+### Types of Recursions:
+Recursion are mainly of two types depending on whether a function calls itself from within itself or more than one function call one another mutually. The first one is called direct recursion and another one is called indirect recursion. Thus, the two types of recursion are:
+
+
+Direct Recursion: These can be further categorized into four types:
+Tail Recursion: If a recursive function calling itself and that recursive call is the last statement in the function then it’s known as Tail Recursion.After that call the recursive function performs nothing. The function has to process or perform any operation at the time of calling and it does nothing at returning time.
+
+
