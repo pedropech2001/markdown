@@ -26,6 +26,8 @@ Direct Recursion: These can be further categorized into four types:
 Tail Recursion: If a recursive function calling itself and that recursive call is the last statement in the function then it’s known as Tail Recursion.After that call the recursive function performs nothing. The function has to process or perform any operation at the time of calling and it does nothing at returning time.
 
 Example
+
+
 // Code Showing Tail Recursion 
   
 #include <stdio.h> 
