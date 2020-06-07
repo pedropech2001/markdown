@@ -1,5 +1,5 @@
 # Subprograms and Recursion
-## Subprogram and its Characteristics
+### Subprogram and its Characteristics
 A Subprogram is a program inside any larger program that can be reused any number of times.
 ### Characteristics of a Subprogram:
 (1) A Subprogram is implemented using the Call & Return instructions in Assembly Language.
