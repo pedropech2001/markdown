@@ -48,5 +48,17 @@ int main()
     fun(x); 
     return 0; 
 } 
-´´´
+```
+### Processes       
 
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems.
+
+Recursion are mainly of two types depending on whether a function calls itself from within itself or more than one function call one another mutually. The first one is called direct recursion and another one is called indirect recursion.
+
+      int fact(int n)
+      {
+          if (n < = 1) // base case
+              return 1;
+          else    
+              return n*fact(n-1);    
+      }
